@@ -125,9 +125,9 @@
     @apply flex size-full max-w-[100px] items-center sm:max-w-[120px];
   }
 
-  .total-balance-label {
+ /* .total-balance-label {
     @apply text-14 font-medium text-gray-600;
-  }
+  }*/
 
   .total-balance-amount {
     @apply text-24 lg:text-30 flex-1 font-semibold text-gray-900;
@@ -216,8 +216,8 @@
     @apply text-24 lg:text-30 font-semibold text-gray-900;
   }
 
-  .header-box-subtext {
-    @apply text-14 lg:text-16 font-normal text-gray-600;
+  .header-box-subtitle, .total-balance-label {
+    @apply text-14 font-normal text-gray-600 lg:text-16;
   }
 
   /* Bank Card */
