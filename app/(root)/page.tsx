@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <section className="home">
             <div className="home-content">
-                <header>
+                <header className="home-header">
                     <HeaderBox
                         type="greeting"
                         title="Welcome,"
